@@ -1,0 +1,45 @@
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#actionButton {
+  background-color: white;
+  -webkit-transition-property: background-color;
+     -moz-transition-property: background-color;
+       -o-transition-property: background-color;
+          transition-property: background-color;
+  -webkit-transition-duration: 0.25s;
+     -moz-transition-duration: 0.25s;
+       -o-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  -webkit-transition-timing-function: linear;
+     -moz-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+  font-family: 'Titillium Web', sans-serif;
+  color:black;
+}
+
+#actionButton:hover {
+  background-color: turquoise;
+  border-color:turquoise;
+
+
+}
+
+#actionButton:active {
+  background-color: turquoise;
+
+}
+
+.output {
+  font-family: 'Titillium Web', sans-serif;
+  border-radius:5px;
+  font-size:20px;
+  text-align:left;
+}
+
+.formLabel {
+  font-family:'Titillium Web', sans-serif;
+  font-size:15px;
+}
